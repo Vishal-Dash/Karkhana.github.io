@@ -70,32 +70,31 @@
 
 	</head>
 	<body class="stretched">
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 	<div class="main-wrapper">
 			<header id="ha-header" class="full-header">
-				<div class="main-wrapper">
+				<div>
 				<div class="ha-header-perspective">
 					<div class="ha-header-front navbar navbar-default">
 						<div class="compressed">
 							<div class="container-fluid">
-								<div class="row">
+								<!-- <div class="row"> -->
 								<div class="navbar-header">
-									<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
-										<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
+									<button data-target="#toggleNav" data-toggle="collapse" class="navbar-toggle" type="button">
+										<i class="fa fa-bars"></i>
 									</button>										 
-									<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-									<div class="navbar-collapse collapse">
-										<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo/karkhanalogo1.png" alt="Karkhana Makerspace Logo"></a>
-										<ul class="nav navbar-nav navbar-right">
-											<li><a class="colorlib-logo" href="index.html">Home</a></li>
-											<li><a class="colorlib-logo" href="tour.html">Services</a></li>
-											<li><a class="colorlib-logo" href="tour.html">Products</a></li>
-											<li><a class="colorlib-logo" href="tour.html">Events</a></li>
-											<li><a class="colorlib-logo" href="tour.html">Mentors</a></li>
-											<li><a class="colorlib-logo" href="#">Team</a></li>
-											<li><a class="colorlib-logo" href="contact.html">About</a></li>
-											<li><a class="colorlib-logo" href="registration.html">Login/Register</a>
+									<!-- <div id="primary-menu-trigger"><i class="icon-reorder"></i></div> -->
+									<div class="navbar-collapse collapse" id="toggleNav">
+										<a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo/karkhanalogo1.png" alt="Karkhana Makerspace Logo"></a>
+										<ul class="nav navbar-nav" id="myNavbar">
+											<li><a class="colorlib-logo" href="/"><h4>Home</h4></a></li>
+											<li><a class="colorlib-logo" href="tour.html"><h4>Tour</h4></a></li>
+											<li><a class="colorlib-logo" href="tour.html"><h4>Products</h4></a></li>
+											<li><a class="colorlib-logo" href="tour.html"><h4>Events</h4></a></li>
+											<li><a class="colorlib-logo" href="tour.html"><h4>Mentors</h4></a></li>
+											<li><a class="colorlib-logo" href="#"><h4>Team</h4></a></li>
+											<li><a class="colorlib-logo" href="contact.html"><h4>About</h4></a></li>
+											<li><a class="colorlib-logo" href="registration.html"><h4>Login/Register</h4></a>
 												<!-- <div class="modal fade" role="dialog" id="loginModal">
 													<div class="modal-dialog">
 														<div class="modal-content">
@@ -123,11 +122,13 @@
 								</div>
 							</div>
 							</div>
-							</div>
+							<!-- </div> -->
 						</div>
 					</div>
+				</div>
 				</header>	
 			</div>
+			</nav>
 	</body>
 	<body>
 	<div id="colorlib-page">
@@ -583,7 +584,7 @@
 												</div>
 											</div>
 										</div>
-		<div id="colorlib-hire">
+		<!-- <div id="colorlib-hire">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
@@ -592,13 +593,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-pb-sm">
+						<!-- <div class="col-md-4 col-pb-sm">
 							<div class="row">
 								<div class="col-md-10">
 									<h2>Suitcase</h2>
@@ -613,18 +614,18 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-pb-sm">
-							<h2>Newsletter</h2>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+						</div> -->
+						<div class="col-md-6 col-pb-sm">
+							<h2>Query Box</h2>
 							<div class="subscribe text-center">
 								<div class="form-group">
 									<input type="text" class="form-control text-center" placeholder="Enter Email address">
+									<input type="text" class="form-control text-center" placeholder="Ask queries if any ?">
 									<input type="submit" value="Subscribe" class="btn btn-primary btn-custom">
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-pb-sm right-display">
+						<div class="col-md-6 col-pb-sm center-display">
 							<h2>Follow Us</h2>
 							<p class="colorlib-social-icons colorlib-social-icons2">
 								<a href="#"><i class="icon-facebook4"></i></a>
@@ -633,10 +634,9 @@
 								<a href="#"><i class="icon-dribbble2"></i></a>
 							</p>
 							<p>
-								<span class="block"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart2" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><br></span> 
-								<span class="block">Demo Images: <a href="http://nothingtochance.co/" target="_blank">nothingtochance.co</a> <a href="http://unsplash.co/" target="_blank">Unsplash</a></span>
+								<span class="block">Copyright &copy; 2018 All Rights Reserved by <a href="">Sudolearn Solutions Pvt. Ltd.</a><br>
+									<a href="terms">Terms of Use</a> / <a href="ppkarkhana">Privacy Policy</a>
+								</span> 
 							</p>
 						</div>
 					</div>
