@@ -261,7 +261,8 @@ header {
     right: 50%;
     z-index: 9;
     text-align: center;
-    background-color: #fff;
+    color: #000;
+    background-color: transparent;
   }
 }
 header .colorlib-navbar-brand {
