@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "karkhana-makerspace",
+  "private_key_id": "d7ab3174f002daed84c31df3f1e79fdc9e7b51dd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC18oEJLZbCmR/i\nUTvl3y+fNCOhJoDSJJjdiYi59xpHAjMG2/lnIT2anHOYc1ylS7UfQaaHwUA1syZO\nBCLVlcKEFpbFYENfrcq5f/1kUcxFQaThJEzp3Nzj9WCqkGgv88pJICLyCs4s8iqB\n5eOB9rcLT50bpiM+LyxLhfWonNUgc1Fu8QvjdKXdp0ViytJceVEgPJd3/PT3d5JF\niwNdr9WojctcBJOTF3Ebw0ZW7ILzxZc9xCYnY/uC+ogsnZS9/PgLBcOTAMnh0k2Q\npbkHM4BJqHur20Fiy3CqhstI0AlUccq9eCyFleQe+51p/ksGDWuIzVZ1XuLS9f/y\nBJ4gD5GDAgMBAAECggEACOeQzk/8REY8NW/mVfS0675TtBJVuz/uEoGMC69+1yGe\nn7C3JW31PUWrS2qLis3VINRH5lyPdbe9bmBtCzW+He4BFcqe4X+ruT8wICKRgOsA\n7ifZpjEx+lIXytRjocOO3EKFxoGMeTSmeFI1u5zFQcXbf+8cltfpYg5w6TFrvzlW\ns321LwsjWkyS16xCPCHdWizc0nYRd/AaZuCZBqrMJKglw070yByikaGU6L0zyVDd\nl3Z3X7MNDpslKuhBKe1itrD4QUIMVKI8LzgEJGqj5n9E90Y4SU+jp1Xt9RftaANu\nzeddAYcINqurNegn6CaW0Tex5LSgn9kKEWJ9sFrSKQKBgQD0BydMIHkXFn/U2gqv\n3HhNfXd2GpuLvtYjxZu2VVY/3IecgOGF1IJuth9WyMiT0V/2lWk2ks80OeqTI1ES\ncwdqCCP2WI0EYOjWyW9BwzIWkzFhVxaxiVWzWUBX7HjckThURMFMhf5EZ0AtAIJr\nOb34fwkx2HHDz7ba8Mcdh+v/jwKBgQC+36d4aRnKx7wPgcAoeI6l3Y+XIWp70VXy\nb6sdRBDjb+TZvIKeE8aVkkbwiQoMRgW+pFwdPNBrhmiFwON3V/UKZ8tEHoIz+kAH\nxD5a0RrI8AO7i/w6c9QyJz7om5RaeDoNT9HLxBQwRW4PPycHgXe+JNi5/tmixBdz\nejpNx7dUzQKBgQDUtKuPUrrZ4hW4zfoEwnLmcJfBjX3JuKVldui8bPQKJErcowZx\nJgQvRnZYqhkTp6wy/pdAJ4WO63DJoj4Xi8aJqODX6OW6TFKIbfqZYvB09wZS55tz\nUtctxn0sZoYPFFH6OhgXgLBapXkuAMStfB5XzTuRhC3d1V94xel5lzGhhwKBgQCq\n/kPSXB1uCycPoUZbOz1XnDghxR7W038ylBVwP2T9y2TyJq3BHag+oG+K1sm4mxZU\nZnva+XshiKSkhluAs7xi2P9BBC/SjrLEAmt2AnQDZPmDD3Ijj1aeo4f47D+oGKKx\nADvLVtpbMCfb4tB9Kd/y6KF7ZrLj3NXBbtNCkNNNVQKBgAJcd1+0FcrXaOLBN929\nt2T47XJxSXnCRnV+NptcZ60Mp80QkptiNwcsy5ShYxvmLa3uf1ZgdO4lTtRghEdv\nPaRjw+I4tjJnpu1Bz+t17cpaGBoY0qDARgltrXipDf3qbW3djscBTqEXTdeNR8RI\nKXskjQhLgizBSVM9hvcp4eeL\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-s7g79@karkhana-makerspace.iam.gserviceaccount.com",
+  "client_id": "107516239403182243586",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-s7g79%40karkhana-makerspace.iam.gserviceaccount.com"
+}
