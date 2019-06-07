@@ -1,10 +1,10 @@
-const admin = require('firebase-admin');
-var serviceAccount = require('karkhana-service.json');
-const functions = require('firebase-functions');
+// const admin = require('firebase-admin');
+// var serviceAccount = require('karkhana-service.json');
+// const functions = require('firebase-functions');
 
-admin.initializeApp(functions.config().firebase);
+// admin.initializeApp(functions.config().firebase);
 
-var db = admin.firestore();
+// var db = admin.firestore();
 
 
 var firebaseConfig = {

@@ -2495,6 +2495,11 @@
 	display: -ms-flexbox;
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
 }
 
 .flex-r {
