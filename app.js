@@ -5,7 +5,8 @@
 // admin.initializeApp(functions.config().firebase);
 
 // var db = admin.firestore();
-
+var firebase = require('firebase');
+var firestore = require('firestore');
 
 var firebaseConfig = {
     apiKey: "AIzaSyDpK0-9RZXzLbKqV08kWLzEn0pJGQ9BkKc",
@@ -18,9 +19,8 @@ var firebaseConfig = {
   };
   
   firebase.initializeApp(firebaseConfig);
-  var firestore = firebase.firestore();
-
-  const docRef = firestore.doc("user/logindata");
+  var fs = firebase.firestore();
+  const docRef = fs.doc("user/logindata");
   const uname = document.querySelector("uname");
   const pass = document.querySelector("pass");
   const sub = document.querySelector("signin");
